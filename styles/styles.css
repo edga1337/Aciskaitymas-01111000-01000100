@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+.logobar {
+    width: 720px;
+    height: 65px;
+    background-color: white;
+    margin: auto;
+}
+
+.logobar img {
+    float: left;
+    width: 120px;
+    height: 60px;
+}
+
+.menu {
+    background-color: #152733;
+    height: 50px;
+    width: 720px;
+    margin: auto;
+}
+
+.menu i {
+    color: white;
+    float: right;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.menu li{
+    display: inline-block;
+    line-height: 50px;
+    color: white;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    float: left;
+}
+.menunumber {
+    color:white;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #666;
+    border: 2px solid #666;
+    text-align: center;
+    font: 7px Arial, sans-serif;
+    line-height: 10px;
+    margin-top:20px;
+}
+.menu li.numberboi{
+    margin-left:5px;
+}
+
+.bigimg {
+    margin: auto;
+    height: 290px;
+    width: 720px;
+    margin-top: 17px;
+}
+
+.containerboi {
+    width: 720px;
+    height: 160px;
+    margin: auto;
+    margin-top:23px;
+}
+
+.infobox {
+    display: inline-block;
+    width: 230px;
+    height: 160px;
+    background-color: white;
+    margin-right: 11px;
+}
+
+.infobox:last-of-type {
+    margin-right: 0;
+}
+
+.infobox h1 {
+    font-family: Roboto, sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.infobox p {
+    padding: 15px;
+    font-size: 13px;
+    font-family: Roboto, sans-serif
+}
+
+.contentbox {
+    width: 720px;
+    height: 270px;
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.aprasymai {
+    width: 450px;
+    height: 240px;
+    float: left;
+    padding: 12px;
+}
+
+.aprasymai h1, h2 {
+    font-family: Roboto, sans-serif;
+}
+
+.navigation {
+    width: 220px;
+    height: 235px;
+    float: right;
+    padding: 12px;
+}
+
+.navigation h1 {
+    font-family: Roboto, sans-serif;
+}
+
+.navibox {
+    width: 220px;
+    height: 200px;
+    background-color: #e8e8e8;
+
+}
+
+.navibox ul {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+.navibox li {
+    line-height: 50px;
+    font-family: Roboto, sans-serif;
+}
+
+.navibox li .menunumber{
+    float:right;
+    margin-right:20px;
+}
+
+.gallerybox {
+    width: 720px;
+    height: 160px;
+    margin: auto;
+    margin-top: 5px;
+
+}
+
+.gallerybox h1 {
+    text-align: center;
+    line-height: 30px;
+    padding: 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+}
+
+.gallerybox li {
+    display: inline-block;
+    width: 176px;
+    height: 110px;
+}
+
+.gallerybox li img {
+    width: 178px;
+    height: 110px;
+}
+
+.footer {
+    width: 720px;
+    height: 65px;
+    background-color: white;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.copyright {
+    float: left;
+    line-height: 65px;
+    margin-left: 15px;
+}
+
+.copyright p {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+}
+
+.credentials {
+    float: right;
+    line-height: 65px;
+    margin-right: 15px;
+}
+
+.credentials p {
+    font-family: Roboto, sans-serif;
+    color: #9fbc2e;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
